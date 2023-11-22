@@ -1,8 +1,12 @@
 /*    STRUTTURA   */
 
 section {
-    border: 1px solid black;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 30px 0;
 }
 
 a {
@@ -18,10 +22,49 @@ header {
     font-size: small;
 }
 
-a:hover {
-    background-color: rgb(112, 112, 112);
-}
-
 .green {
     background-color: #1ABC9C;
+}
+
+.a-white{
+    color: white;
+}
+
+.a-green {
+    color: #1ABC9C;
+}
+
+.a-green:hover {
+    text-decoration: underline;
+}
+
+.line-white {
+    width: 25%;
+    height: 5px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.line-black {
+    width: 25%;
+    height: 5px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.border-secondary {
+    --bs-border-opacity: 0.6;
+    border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
+  }
+
+
+.circled-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
 }
