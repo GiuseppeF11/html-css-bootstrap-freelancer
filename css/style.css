@@ -1,15 +1,27 @@
 /*    STRUTTURA   */
-.box {
-    background-color: rgb(255, 222, 209);
-    border: 1px dashed red;
-}
 
 section {
     border: 1px solid black;
     padding: 30px;
 }
 
-.img-box {
-    background-color: darkolivegreen;
-    border-radius: 5px;
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #2C3E50;
+}
+
+.fs-small {
+    font-size: small;
+}
+
+a:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+.green {
+    background-color: #1ABC9C;
 }
