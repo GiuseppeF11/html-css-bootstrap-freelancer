@@ -1,6 +1,6 @@
 /*    STRUTTURA   */
-
-.row  div {
+.box {
+    background-color: rgb(255, 222, 209);
     border: 1px dashed red;
 }
 
