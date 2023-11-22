@@ -1,5 +1,9 @@
 /*    STRUTTURA   */
 
-.row > div {
-    border: 1px dashed red
+.row  div {
+    border: 1px dashed red;
+}
+
+section {
+    border: 1px solid black;
 }
