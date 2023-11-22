@@ -6,4 +6,10 @@
 
 section {
     border: 1px solid black;
+    padding: 30px;
+}
+
+.img-box {
+    background-color: darkolivegreen;
+    border-radius: 5px;
 }
