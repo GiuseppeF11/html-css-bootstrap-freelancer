@@ -14,33 +14,6 @@
 
     <header>
         <div class="container-fluid text-center overflow-hidden">
-                <!-- <section class="header-top row p-2 text-white">
-                        <div class="col-8 m-auto">
-                                <div class="row">
-                                        <div class="col d-inline-flex align-items-center">
-                                                <div class="box">
-                                                        <a href="#" class="text-white fw-medium p-1">START BOOTSTRAP</a>
-                                                </div>
-                                        </div>
-                                        <div class="col d-inline-flex flex-row-reverse">
-                                                <div>
-                                                        <a href="" class="a-white"><i class="fa-solid fa-bars fs-2 py-2 px-3 border border-secondary d-sm-none"></i></a>
-                                                </div>
-                                                <div class="row d-flex align-items-center d-none d-sm-flex ">
-                                                        <div class="col w-auto">
-                                                                <a href="" class="box fs-small fw-medium text-white p-1"> PORTFOLIO</a>
-                                                        </div>
-                                                        <div class="col w-auto">
-                                                                <a href="" class="box fs-small fw-medium text-white p-1"> ABOUT</a>
-                                                        </div>
-                                                        <div class="col w-auto">
-                                                                <a href="" class="box fs-small fw-medium text-white p-1"> CONTACT</a>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </section> -->
                 <nav class="navbar navbar-expand-md fw-medium" data-bs-theme="dark">
                         <div class="container">
                           <a class="navbar-brand text-light p-2" href="#">
@@ -162,6 +135,8 @@
                 </div>
         </section>
 
+        <!--                          RIPRENDERE DA QUI                          -->
+
         <section class="section-4 container-fluid text-center text-dark overflow-hidden">
                 <div class="row">
                         <div class="col-8 m-auto">
@@ -172,17 +147,21 @@
                                         <div class="col-3 line-black"></div>
                                 </div>
 
-                                <div class="col text-start text-dark border-bottom border-secondary border-opa py-2 my-1">
-                                        NAME
-                                </div>
-                                <div class="col text-start border-bottom border-secondary py-2 my-1">
-                                        EMAIL
-                                </div>
-                                <div class="col text-start border-bottom border-secondary py-2 my-1">
-                                        PHONE
+                                <div class="col text-start text-dark py-2 my-1">
+                                        <label for="text">Name</label>
+                                        <input type="text" class="form-control" placeholder="Name Lastname">
                                 </div>
                                 <div class="col text-start py-2 my-1">
-                                        MESSAGE
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" placeholder="name@example.com">
+                                </div>
+                                <div class="col text-start py-2 my-1">
+                                        <label for="phone">Phone</label>
+                                        <input type="phone" class="form-control" value="+39 - " minlength="16" maxlength="16">
+                                </div>
+                                <div class="col text-start py-2 my-1">
+                                        <label for="textarea">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Messaggio"></textarea>
                                 </div>
 
                                 <div class="col border-top border-secondary mt-5">
