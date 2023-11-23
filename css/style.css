@@ -1,65 +1,7 @@
-/*    STRUTTURA   */
+/*    UTILITY CLASSES    */
 
-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.container-fluid {
-    padding: 15px 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-header , .footer-bottom {
-    background-color: #2C3E50;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 0;
-    align-items: center;
-}
-
-.footer-top {
-    background-color: #3A546D;
-    min-height: 150px
-}
-
-.footer-bottom {
-    min-height: 80px;
-}
-
-.fs-small {
-    font-size: small;
-}
-
-.green {
+.bg-green {
     background-color: #1ABC9C;
-}
-
-.a-white{
-    color: white;
-}
-
-.a-green {
-    color: #1ABC9C;
-}
-
-.nav-link:hover , .navbar-brand:hover {
-    background-color: rgba(127, 127, 127, 0.764);
-    transition: 0.5s;
-}
-
-.a-green:hover {
-    text-decoration: underline;
 }
 
 .line-white {
@@ -76,12 +18,6 @@ header , .footer-bottom {
     background-color: black;
 }
 
-.border-secondary {
-    --bs-border-opacity: 0.6;
-    border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
-  }
-
-
 .circled-icon {
     width: 30px;
     height: 30px;
@@ -92,6 +28,74 @@ header , .footer-bottom {
     align-items: center;
     margin: 5px 5px;
 }
+
+.fs-small {
+    font-size: small;
+}
+
+/*     LINK     */
+
+a {
+    text-decoration: none;
+}
+
+.a-white{
+    color: white;
+}
+
+.a-green {
+    color: #1ABC9C;
+}
+
+.a-green:hover {
+    text-decoration: underline;
+}
+
+/*    STRUTTURA   */
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 15px 0;
+}
+
+
+/*     HEADER     */
+
+header , .footer-bottom {
+    background-color: #2C3E50;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.nav-link:hover , .navbar-brand:hover {
+    background-color: rgba(127, 127, 127, 0.764);
+    transition: 0.5s;
+}
+
+/*     FOOTER     */
+
+.footer-top {
+    background-color: #3A546D;
+    min-height: 150px
+}
+
+.footer-bottom {
+    min-height: 80px;
+}
+
+/*    FORM    */
 
 .form-control {
     border: none;
