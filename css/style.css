@@ -30,6 +30,11 @@ header , .footer-bottom {
 
 .footer-top {
     background-color: #3A546D;
+    min-height: 150px
+}
+
+.footer-bottom {
+    min-height: 80px;
 }
 
 .fs-small {
@@ -59,14 +64,14 @@ header , .footer-bottom {
 
 .line-white {
     width: 25%;
-    height: 5px;
+    height: 4px;
     border-radius: 25px;
     background-color: white;
 }
 
 .line-black {
     width: 25%;
-    height: 5px;
+    height: 4px;
     border-radius: 25px;
     background-color: black;
 }
@@ -86,4 +91,10 @@ header , .footer-bottom {
     justify-content: center;
     align-items: center;
     margin: 5px 5px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid darkgray;
 }
