@@ -19,8 +19,8 @@
 }
 
 .circled-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
@@ -31,6 +31,10 @@
 
 .fs-small {
     font-size: small;
+}
+
+.header-bottom .img-box {
+    max-width: 200px;
 }
 
 /*     LINK     */
@@ -59,11 +63,15 @@ section {
 }
 
 .container-fluid {
-    padding: 15px 0;
+    padding: 30px 0;
 }
 
 
 /*     HEADER     */
+
+.header-top {
+    padding: 5px 0;
+}
 
 header , .footer-bottom {
     background-color: #2C3E50;
@@ -71,6 +79,11 @@ header , .footer-bottom {
 
 .navbar {
     padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    opacity: 1;
 }
 
 .navbar-collapse {
@@ -93,6 +106,10 @@ header , .footer-bottom {
 
 .footer-bottom {
     min-height: 80px;
+}
+
+#loghi a {
+    margin: 0 2px;
 }
 
 /*    FORM    */
